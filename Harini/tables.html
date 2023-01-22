@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tables.js"></script>
+    <style>
+        .box{
+            position: absolute;
+            left: 400px;
+            width: 300px;
+            height: 500px;
+            border: 3px solid blue;
+        }
+        .box1{
+            position: absolute;
+            right: 1000px;  
+            width: 300px;
+            height: 500px;
+            border: 3px solid green;
+        }
+        .box2{
+            position: absolute;
+            left: 750px;  
+            width: 300px;
+            height: 500px;
+            border: 3px solid rgb(223, 216, 15);
+        }
+    </style>
+    <title>Tables</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Table using For loop</h1>
+    <input type="text" placeholder="Enter table number" id="a">
+    <br><br>
+    <input type="button" value = "submit" onclick="tables()"><br><br>
+    <div id="a1">
+    </div>
+    </div>
+    <div class="box1">
+        <h1>Table using While loop</h1>
+    <input type="text" placeholder="Enter table number" id="b">
+    <br><br>
+    <input type="button" value = "submit" onclick="tables2()"><br><br>
+    <div id="b1">
+    </div>
+    </div>
+    <div class="box2">
+        <h1>Table using Do-while loop</h1>
+    <input type="text" placeholder="Enter table number" id="c">
+    <br><br>
+    <input type="button" value = "submit" onclick="tables3()"><br><br>
+    <div id="c1">
+    </div>
+    </div>
+</body>
+</html>

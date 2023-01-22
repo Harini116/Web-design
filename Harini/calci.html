@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calci.css">
+    <title>Document</title>
+    <script src="calci.js"></script>
+</head>
+<body>
+    <div class="box1" style="background-color: rgb(255, 173, 170);">
+    <center><h2>Calculator</h2>
+    <label for="">First No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="val1">
+    <br><br>
+    <label for="">Second No.&nbsp;</label>
+    <input type="text" id="val2">
+    <br><br>
+    <h1 id="result"></h1>
+    <input type="button" value="+" onclick="add()">
+    <input type="button" value="-" onclick="sub()">
+    <input type="button" value="*" onclick="mul()">
+    <input type="button" value="/" onclick="div()">
+    <br><br>
+    </center>
+    </div>
+    <center>
+    <div class = "box" style="background-color: rgb(178, 227, 255);">
+        <h2>Simple Calculator</h2>
+        <br><br>
+        <label for="">Enter the First Number&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="val3">
+        <br><br><br>
+        <label for="">Enter the Second Number&nbsp;</label>
+        <input type="text" id="val4">
+        <br><br><br>
+        <label for="">Enter the Symbol&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+        </label>
+        <input type="text" id="symbol">
+        <br><br>
+        <h1 id="result1"></h1>
+        <br>
+        <input type="button" value="Submit" onclick="calc()">
+    </div>
+    </center>
+</body>
+</html>
